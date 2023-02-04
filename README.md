@@ -1,6 +1,8 @@
 # Add Custom Rules to John
 For the ones who can't find how
 
+Feel free to send me custom rules so i can add them to the repository
+
 # Create a rules.conf File in the /usr/share/john Directory
 (Change rule to your preferred name):
 
