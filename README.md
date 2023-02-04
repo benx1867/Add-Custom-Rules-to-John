@@ -1,4 +1,5 @@
 # Add Custom Rules to John
+For the ones who can't find how
 
 # Create a rules.conf File in the /usr/share/john Directory
 (Change rule to your preferred name):
@@ -22,11 +23,11 @@ sudo nano /etc/john/john.conf
   
   
  # Use the rule
-  john --wordlist=list.lst --rules=Example-Rule 
+  john --wordlist=list.lst --rules=Example-Rule hash.txt
   
   (Use the name you gave it in the rule.conf file)
 
-To add multiple rule-sets in single rule.conf file, check example.conf
+To add multiple rule-sets in single rule.conf file, check: example.conf
 
 The example.conf file has content stolen from here 
 
